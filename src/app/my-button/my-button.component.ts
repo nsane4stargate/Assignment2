@@ -11,7 +11,7 @@ import { MyServiceService } from '../my-service.service'
 export class MyButtonComponent implements OnInit {
 
   /* Properties */
-  flag : boolean
+  flag : boolean 
   
   constructor(
     private _service : MyServiceService
@@ -19,7 +19,6 @@ export class MyButtonComponent implements OnInit {
 
   ngOnInit() {
     this.flag = false;
-    
   }
 
   /*
