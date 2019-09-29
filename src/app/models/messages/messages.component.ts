@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./messages.component.css']
 })
 export class MessagesComponent implements OnInit {
-
+/* The messages class should contain a member property that is an array that holds messages.*/
   constructor() { }
 
   ngOnInit() {
