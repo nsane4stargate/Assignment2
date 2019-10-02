@@ -1,6 +1,7 @@
 # Mydist
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+Not really sure how the chat app model should have been used but its there. Only did partial of the extra credit. Method invocation in the app.component.ts constructor is commented out since I could not get all the requirements to work.
 
 ## Development server
 
