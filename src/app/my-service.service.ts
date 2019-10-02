@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { MyButtonComponent } from './my-button/my-button.component'
 
 @Injectable({
   providedIn: 'root'

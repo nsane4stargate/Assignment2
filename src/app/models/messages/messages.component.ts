@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MessagesService } from 'src/app/messages.service'
+import { MessageComponent } from 'src/app/models/message/message.component'
 
 @Component({
   selector: 'app-messages',
@@ -9,14 +9,11 @@ import { MessagesService } from 'src/app/messages.service'
 
 export class MessagesComponent implements OnInit {
   /* The messages class should contain a member property that is an array that holds messages.*/
-  messages: [];
+  messages: MessageComponent[];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }
 
-  sendToMessdageService(){
-    
-  }
 }

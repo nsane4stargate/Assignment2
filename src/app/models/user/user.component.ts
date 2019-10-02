@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { MessagesComponent } from 'src/app/models/messages/messages.component'
 
 @Component({
   selector: 'app-user',
@@ -8,12 +7,16 @@ import { MessagesComponent } from 'src/app/models/messages/messages.component'
 })
 
 export class UserComponent implements OnInit {
-  @Input() message:string;
-  newUserFlag: boolean;
+  user_name;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
+    
   }
 
+  addUsernameCode(value: string){
+    this.user_name = value;
+    (<HTMLInputElement>document.getElementById("user")).value ="";
+  }
 }

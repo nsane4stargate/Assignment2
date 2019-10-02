@@ -1,6 +1,21 @@
 <!DOCTYPE html>
-<app-my-image></app-my-image>
-<app-my-button></app-my-button>
-<app-user></app-user>
-<app-message></app-message>
-<app-messages></app-messages>
+<html>   
+    <div>
+        <span><app-my-image></app-my-image></span>
+        <span><app-my-button></app-my-button></span>
+        <span><app-user></app-user></span>
+    </div>
+
+    <div class="chats-display">Chats will display here
+        <div class="input-box">
+                <input type="text" id="incoming-message" name="incoming-message" size="75" maxlength="30"><br>
+        </div>
+        <div class="messages-display-box">
+                <textarea name="output_window" cols="57" row="5" scrolling="yes"></textarea>
+        </div>
+    </div>
+</html>
+
+
+
+
