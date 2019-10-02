@@ -9,7 +9,7 @@ import { MessageComponent } from 'src/app/models/message/message.component'
 
 export class MessagesComponent implements OnInit {
   /* The messages class should contain a member property that is an array that holds messages.*/
-  messages: MessageComponent[];
+  messages: MessageComponent[] = [];
 
   constructor() {}
 

@@ -9,7 +9,7 @@ import { MessagesComponent } from './models/messages/messages.component';
 export class MessagesService {
 
   message: MessageComponent;
-  messages: MessagesComponent;
+  messages: MessagesComponent = new MessagesComponent;
 
   constructor() {}
 
